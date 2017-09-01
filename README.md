@@ -4,7 +4,7 @@ Howdy! To use this shit run the following commands:
 
 ```
 # Install the required node modules
-npm init
+npm install
 
 # Build the frontend
 npm run build
