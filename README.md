@@ -1,6 +1,6 @@
 #Socket Express
 
-Howdy! Do use this shit run the following commands:
+Howdy! To use this shit run the following commands:
 
 ```
 # Install the required node modules
