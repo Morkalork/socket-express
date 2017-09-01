@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>I'm a webpage damnit, not just some static file!</title>
+  <style type="text/css">
+    main {
+      width: 80%;
+      margin: 2rem auto;
+    }
+
+    #message-board {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      border: 3px #333 solid;
+      background-color: #eaeaea;
+      color: #111;
+      box-shadow: 0 0 0.5rem #333;
+      padding: 1rem;
+      height: 10rem;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>The Exile Chat</h1>
+    <p>Did you ever feel exiled? Well, fear not my friend. Infront of you is a state of the art Chat Machine™. Use it's power
+      with great care!</p>
+
+    <div id="message-board">
+      <p>Messages:</p>
+    </div>
+
+    <div class="chat-machine">
+      <p><input type="text" placeholder="Input message HERE..." id="input"></p>
+      <p><input type="button" value="Send message" id="send"></p>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="/bundle.js"></script>
+</body>
+
+</html>
